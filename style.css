@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/*FONTE
+font-family: "Open Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: <weight>;
+font-style: normal;
+font-variation-settings:
+  "wdth" 100;
+ */
+/*reset*/
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+    
+}
+/*reset*/
+/*valores gerais*/
+html {
+    font-size: 1em;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    box-sizing: border-box;
+}
+body{
+    background-color: #6c6664;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+main {
+    background-color: white;
+}
+.imagem__header__filho:hover {
+    opacity: 50%;
+}
+/*valores gerais*/
+
+@media only screen and (min-width: 901px) {
+/* Estilos para telas maiores que 900px de largura */
+
+nav {
+    position: relative;
+    left: 50%;
+    top: -7px;
+    display: flex;
+    font-size: 1.2rem;
+    margin-left: 1.5%;
+    width: 550px;
+}
+header {
+    width: 96%;
+    position: relative;
+    left: 2%;
+    top: 20px;
+}
+main{
+    width: 96%;
+    position: relative;
+    left: 2%;
+    top: 20px;
+    
+}
+.menu {
+    margin: 1%;
+    height: 60px;
+    padding-top: 0.9%;
+    padding-left: 0.9%;
+    padding-right: 0.9%;
+}
+
+.menu:hover {
+    background-color: #ffcc01;
+    color: white;
+}
+#titulo {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 75;
+      position: relative;
+      top: 4%;
+      left: 37%;
+      width: 430px;
+}
+#titulo__strong{
+    color: #ffcc01;
+}
+
+.imagem__header__filho {
+    width: 15px;
+    margin: 1.5px;
+}
+.imagem__header__pai {
+    position: relative;
+    left: 81%;
+    width: 60px;
+}
+#imagem__main {
+    position: relative;
+    left: 10%;
+    top: 12%;
+    max-width: 50%;
+}
+.main_imagem {
+    display: flex;
+}
+box {
+    position: relative;
+    width: 364px;
+    height: 422px;
+    background-color: #f2efde;
+    left: 10%;
+    padding: 73px;
+}
+#main__2 {
+    display: flex;
+    position: relative;
+    top: 50px;
+    left: 0%;
+    width: 1289px;
+    background-color: white;
+}
+#caixa {
+    position: relative;
+    left: 5%;
+    width: 364px;
+    height: 358px;
+    background-color: #bcb29d;
+    margin-left: 20px;
+    padding-left: 59px;
+    padding-right: 55px;
+    padding-top: 44px;
+    padding-bottom: 51px;
+    color: white;
+}
+#linha {
+    width: 251px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-top: 34px;
+    margin-bottom: 27px;
+}
+.botao__caixa{
+    text-decoration: none;
+    display: inline-block;
+    width: 80.2833px;
+    height: 37px;
+    padding: 4.5px 24px;
+    background-color: white;
+    color: #928674;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 75;
+      position: relative;
+      top:15%
+}
+#efeito:hover {
+    background-color: #ffcc01;
+}
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    /* Estilos para telas entre 601px e 900px de largura */
+    nav {
+        position: relative;
+        left: 11%;
+        top: -7px;
+        display: flex;
+        font-size: 1.2rem;
+        margin-left: 1.5%;
+        width: 550px;
+    }
+    header {
+        width: 96%;
+        position: relative;
+        left: 2%;
+        top: 20px;
+    }
+    main{
+        width: 96%;
+        position: relative;
+        left: 2%;
+        top: 20px;
+        
+    }
+    .menu {
+        margin: 1%;
+        height: 60px;
+        padding-top: 0.9%;
+        padding-left: 0.9%;
+        padding-right: 0.9%;
+    }
+    
+    .menu:hover {
+        background-color: #ffcc01;
+        color: white;
+    }
+    #titulo {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 75;
+          position: relative;
+          top: 4%;
+          left: 23%;
+          width: 430px;
+    }
+    #titulo__strong{
+        color: #ffcc01;
+    }
+    
+    .imagem__header__filho {
+        width: 15px;
+        margin: 1.5px;
+    }
+    .imagem__header__pai {
+        position: relative;
+        left: 88%;
+        width: 60px;
+    }
+    #imagem__main {
+        position: relative;
+        left: 5%;
+        top: 12%;
+        width: 327px;
+        height: 327px;
+      
+    }
+    .main_imagem {
+        display: flex;
+    }
+    box {
+        position: relative;
+        width: 280px;
+        height: 327px;
+        background-color: #f2efde;
+        left: 5%;
+        padding: 73px;
+    }
+    #box__titulo{
+        position: relative;
+        left: -25%;
+    }
+    #main__2 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 34px;
+        left: 0%;
+        width: 100%;
+        background-color: white;
+    }
+    #caixa {
+        position: relative;
+        left: 5%;
+        width: 450px;
+        height: 355px;
+        background-color: #bcb29d;
+        margin-top: 25px;
+        margin-left: 20px;
+        padding-left: 59px;
+        padding-right: 55px;
+        padding-top: 44px;
+        padding-bottom: 51px;
+        color: white;
+    }
+    #linha {
+        width: 251px;
+        height: 4px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        margin-top: 34px;
+        margin-bottom: 27px;
+    }
+    .botao__caixa{
+        text-decoration: none;
+        display: inline-block;
+        width: 80.2833px;
+        height: 37px;
+        padding: 4.5px 24px;
+        background-color: white;
+        color: #928674;
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 75;
+          position: relative;
+          top:15%
+    }
+    #efeito:hover {
+        background-color: #ffcc01;
+    }
+  }
+@media only screen and (max-width: 600px) {
+    /* Estilos para telas menores que 600px de largura */
+    nav {
+        position: relative;
+        left: 0%;
+        top: -7px;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.2rem;
+        margin-left: 1.5%;
+        width: 370px;
+    }
+    header {
+        width: 96%;
+        position: relative;
+        left: 2%;
+        top: 20px;
+    }
+    main{
+        width: 96%;
+        position: relative;
+        left: 2%;
+        top: 20px;
+        
+    }
+    #menu1 {
+        margin: 1%;
+        height: 30px;
+        width: 62px;
+        padding-top: 0.9%;
+        padding-left: 0.9%;
+        padding-right: 0.9%;
+        background-color: #ffcc01b6;
+        position: relative;
+        left: 0%;
+        font-size: 17px;
+    }
+    #menu2 {
+        margin: 1%;
+        height: 30px;
+        width: 103px;
+        padding-top: 0.9%;
+        padding-left: 0.9%;
+        padding-right: 0.9%;
+        background-color: #ffcc01b6;
+        position: relative;
+        top: 0px;
+        left: 0%;
+        font-size: 17px;
+    }
+    #menu3 {
+        margin: 1%;
+        height: 30px;
+        width: 88px;
+        padding-top: 0.9%;
+        padding-left: 0.9%;
+        padding-right: 0.9%;
+        background-color: #ffcc01b6;
+        position: relative;
+        top: 0px;
+        left: 0%;
+        font-size: 17px;
+    }
+    #menu4 {
+        margin: 1%;
+        height: 30px;
+        width: 89px;
+        padding-top: 0.9%;
+        padding-left: 0.9%;
+        padding-right: 0.9%;
+        background-color: #ffcc01b6;
+        position: relative;
+        top: 0px;
+        left: 0%;
+        font-size: 17px;
+    }
+    #menu5 {
+        margin: 1%;
+        height: 30px;
+        width: 89px;
+        padding-top: 0.9%;
+        padding-left: 0.9%;
+        padding-right: 0.9%;
+        background-color: #ffcc01b6;
+        position: relative;
+        top: 0px;
+        left: 0%;
+        font-size: 17px;
+    }
+    .menu {
+        margin: 1%;
+        height: 60px;
+        padding-top: 0.9%;
+        padding-left: 0.9%;
+        padding-right: 0.9%;
+    }
+    
+    .menu:hover {
+        background-color: #ffcc01;
+        color: white;
+    }
+    #titulo {
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 30px;
+        font-variation-settings:
+          "wdth" 75;
+        position: relative;
+          top: 8px;
+          left: 29%;
+          width: 380px;  
+  
+    }
+    #titulo__strong{
+        position: relative;
+        color: #ffcc01;
+        left: 2%;
+    }
+    
+    .imagem__header__filho {
+        width: 15px;
+        margin: 1.5px;
+    }
+    .imagem__header__pai {
+        position: relative;
+        left: 84%;
+        width: 60px;
+    }
+    #imagem__main {
+        position: relative;
+        left: 5%;
+        top: 12%;
+        width: 290px;
+        height: 290px;
+      
+    }
+    .main_imagem {
+        display: flex;
+        flex-direction: column;
+    }
+    box {
+        position: relative;
+        width: 290px;
+        height: 327px;
+        background-color: #f2efde;
+        left: 5%;
+        padding: 73px;
+    }
+    #box__titulo{
+        position: relative;
+        left: -25%;
+    }
+    #main__2 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 34px;
+        left: 0%;
+        width: 100%;
+        background-color: white;
+    }
+    #caixa {
+        position: relative;
+        left: 0%;
+        width: 350px;
+        height: 355px;
+        background-color: #bcb29d;
+        margin-top: 25px;
+        margin-left: 20px;
+        padding-left: 59px;
+        padding-right: 55px;
+        padding-top: 44px;
+        padding-bottom: 51px;
+        color: white;
+    }
+    #linha {
+        width: 251px;
+        height: 4px;
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        margin-top: 34px;
+        margin-bottom: 27px;
+    }
+    .botao__caixa{
+        text-decoration: none;
+        display: inline-block;
+        width: 80.2833px;
+        height: 37px;
+        padding: 4.5px 24px;
+        background-color: white;
+        color: #928674;
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 75;
+          position: relative;
+          top:15%
+    }
+    #efeito:hover {
+        background-color: #ffcc01;
+    }
+  }
